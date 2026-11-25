@@ -13,7 +13,7 @@
     <header class="header">
         <a href="#home" class="logo">Rohan Mahajan</a>
 
-        <nav class="navigation" aria-label="Main navigation">
+        <nav class="navigation">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
@@ -23,141 +23,69 @@
     </header>
 
     <main>
-        <!-- Hero section -->
+
+        <!-- Hero Section -->
         <section class="hero" id="home">
+
             <div class="hero-text">
                 <p class="welcome">Welcome to My Portfolio</p>
+
                 <h1>Rohan Mahajan</h1>
-                <p class="intro">A student and aspiring developer passionate about learning and building with technology.</p>
+
+                <p class="intro">
+                    A student and aspiring developer passionate about
+                    learning and building with technology.
+                </p>
+
                 <a href="#contact" class="button">Contact Me</a>
             </div>
 
-            <div class="profile-placeholder" aria-label="Profile image placeholder">
-                <div class="profile-head"></div>
-                <div class="profile-body"></div>
-            </div>
+            <!-- Profile Photo -->
+            <img
+                class="profile-photo"
+                src="profile.jpg"
+                alt="Portrait of Rohan Mahajan"
+            >
+
         </section>
 
-        <!-- About section -->
+
+        <!-- About Section -->
         <section class="section about" id="about">
+
             <div class="about-text">
+
                 <h2>About Me</h2>
+
                 <div class="small-line"></div>
+
                 <p>
-                    Hi, I'm Rohan Mahajan. I'm interested in technology, programming,
-                    and web development. I'm continuously learning new skills and
-                    working towards building useful projects.
+                    Hi, I'm Rohan Mahajan. I'm interested in technology,
+                    programming, and web development. I'm continuously
+                    learning new skills and working towards building
+                    useful projects.
                 </p>
+
             </div>
 
-            <div class="about-image">
-                <img src = "profile.jpg">
-                    
-            </div>
         </section>
 
-        <!-- Skills section -->
+
+        <!-- Skills Section -->
         <section class="section skills-section" id="skills">
+
             <h2>Skills</h2>
+
             <div class="small-line"></div>
 
             <div class="skills-grid">
+
                 <div class="skill-card">
-                    <div class="skill-symbol" aria-hidden="true">&lt;/&gt;</div>
+                    <div class="skill-symbol">&lt;/&gt;</div>
                     <h3>HTML</h3>
                 </div>
+
                 <div class="skill-card">
-                    <div class="skill-symbol" aria-hidden="true">◉</div>
+                    <div class="skill-symbol">◉</div>
                     <h3>CSS</h3>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-symbol" aria-hidden="true">Py</div>
-                    <h3>Python</h3>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-symbol" aria-hidden="true">▣</div>
-                    <h3>C Programming</h3>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-symbol" aria-hidden="true">♟</div>
-                    <h3>Communication</h3>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects section -->
-        <section class="section projects-section" id="projects">
-            <h2>Projects</h2>
-            <div class="small-line"></div>
-
-            <div class="projects-grid">
-                <article class="project-card">
-                    <div class="project-image">Project image</div>
-                    <div class="project-info">
-                        <h3>Portfolio Website</h3>
-                        <p>A personal website showcasing my profile, skills, and projects.</p>
-                        <a href="https://github.com/Rohan-Git69" class="outline-button"
-                           target="_blank" rel="noopener noreferrer">View GitHub</a>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-image">Project image</div>
-                    <div class="project-info">
-                        <h3>Coming Soon</h3>
-                        <p>More projects will be added here as I continue learning and building.</p>
-                        <a href="https://github.com/Rohan-Git69" class="outline-button"
-                           target="_blank" rel="noopener noreferrer">Visit GitHub</a>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!-- Contact section -->
-        <section class="section contact-section" id="contact">
-            <h2>Contact</h2>
-            <div class="small-line"></div>
-
-            <div class="contact-layout">
-                <div class="contact-details">
-                    <p>● &nbsp; India</p>
-                    <p>● &nbsp; <a href="mailto:mahajanrohan35@gmail.com">mahajanrohan35@gmail.com</a></p>
-                    <p>● &nbsp; <a href="https://www.linkedin.com/in/rohan-mahajan-426880425/"
-                        target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
-                    <p>● &nbsp; <a href="https://github.com/Rohan-Git69"
-                        target="_blank" rel="noopener noreferrer">GitHub Profile</a></p>
-                </div>
-
-                <!-- Front-end form only: connect a form service/backend to receive submissions. -->
-                <form class="contact-form" action="mailto:mahajanrohan35@gmail.com"
-                      method="post" enctype="text/plain">
-                    <div class="form-row">
-                        <input type="text" name="name" placeholder="Full Name"
-                               aria-label="Full Name" required>
-                        <input type="email" name="email" placeholder="Email Address"
-                               aria-label="Email Address" required>
-                    </div>
-                    <input type="text" name="subject" placeholder="Subject"
-                           aria-label="Subject" required>
-                    <textarea name="message" rows="4" placeholder="Message"
-                              aria-label="Message" required></textarea>
-                    <button type="submit">Submit</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <p>© 2026 Rohan Mahajan. All rights reserved.</p>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/rohan-mahajan-426880425/"
-               aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">in</a>
-            <a href="https://github.com/Rohan-Git69"
-               aria-label="GitHub" target="_blank" rel="noopener noreferrer">GH</a>
-            <a href="mailto:mahajanrohan35@gmail.com" aria-label="Email">@</a>
-        </div>
-    </footer>
-
-</body>
-</html>
+                </div
