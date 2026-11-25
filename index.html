@@ -1,33 +1,265 @@
-<!-- Hero Section -->
-<section id="home" class="hero">
-    <div class="hero-content">
-        <h1>Welcome to My Portfolio</h1>
-        <h2>Hi, I'm Rohan Mahajan</h2>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rohan Mahajan | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+
+            <h2 class="logo">Rohan Mahajan</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Home / Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h1>Welcome to My Portfolio</h1>
+
+            <h2>Hi, I'm <span>Rohan Mahajan</span></h2>
+
+            <p>
+                I'm a passionate learner interested in web development,
+                programming, and technology. I enjoy learning new skills
+                and creating interesting projects.
+            </p>
+
+            <a href="#contact" class="btn">Contact Me</a>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img
+                src="profile.jpg"
+                alt="Rohan Mahajan"
+                class="profile-photo"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+        <h2>About Me</h2>
+
         <p>
-            I'm a passionate learner interested in web development
-            and programming. Welcome to my personal portfolio!
+            Hello! I'm Rohan Mahajan. I am passionate about technology,
+            programming, and web development. I enjoy exploring new
+            technologies, improving my coding skills, and building
+            creative projects. My goal is to become a skilled developer
+            and create useful digital experiences.
         </p>
 
-        <a href="#contact" class="btn">Contact Me</a>
-    </div>
+    </section>
 
-    <div class="hero-image">
-        <img
-            src="profile.jpg"
-            alt="Rohan Mahajan"
-            class="profile-photo"
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">HTML5</div>
+
+            <div class="skill-card">CSS3</div>
+
+            <div class="skill-card">JavaScript</div>
+
+            <div class="skill-card">Python</div>
+
+            <div class="skill-card">C Programming</div>
+
+            <div class="skill-card">C++</div>
+
+            <div class="skill-card">Responsive Web Design</div>
+
+            <div class="skill-card">Git</div>
+
+            <div class="skill-card">GitHub</div>
+
+            <div class="skill-card">Problem Solving</div>
+
+            <div class="skill-card">Communication</div>
+
+            <div class="skill-card">Teamwork</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    A personal portfolio website created using HTML
+                    and CSS to showcase my skills, projects, and
+                    contact information.
+                </p>
+
+                <a
+                    href="https://github.com/Rohan-Git69"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-btn"
+                >
+                    View on GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+        <h2>Contact Me</h2>
+
+        <p>Feel free to connect with me!</p>
+
+        <div class="contact-info">
+
+            <p>
+                <strong>Location:</strong> India
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:mahajanrohan35@gmail.com">
+                    mahajanrohan35@gmail.com
+                </a>
+            </p>
+
+            <p>
+                <strong>LinkedIn:</strong>
+                <a
+                    href="https://www.linkedin.com/in/rohan-mahajan-426880425/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Visit My LinkedIn
+                </a>
+            </p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a
+                    href="https://github.com/Rohan-Git69"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Visit My GitHub
+                </a>
+            </p>
+
+        </div>
+
+
+        <!-- Contact Form -->
+        <form
+            action="mailto:mahajanrohan35@gmail.com"
+            method="post"
+            enctype="text/plain"
+            class="contact-form"
         >
-    </div>
-</section>
+
+            <input
+                type="text"
+                name="Name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                name="Message"
+                placeholder="Your Message"
+                rows="5"
+                required
+            ></textarea>
+
+            <button type="submit" class="btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
 
 
-<!-- About Me Section -->
-<section id="about" class="about">
-    <h2>About Me</h2>
+    <!-- Footer -->
+    <footer>
 
-    <p>
-        Hello! I'm Rohan Mahajan. I'm passionate about technology,
-        programming, and web development. I enjoy learning new skills
-        and building creative projects.
-    </p>
-</section>
+        <p>&copy; 2026 Rohan Mahajan. All Rights Reserved.</p>
+
+        <div class="footer-links">
+
+            <a
+                href="https://github.com/Rohan-Git69"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                GitHub
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/rohan-mahajan-426880425/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                LinkedIn
+            </a>
+
+            <a href="mailto:mahajanrohan35@gmail.com">
+                Email
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
